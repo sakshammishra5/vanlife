@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: larger;
+}
+.header{
+  display: flex;
+  padding: 36px;
+  background-color: #FFF7ED;
+}
+
+.nav-item-2{
+margin-left: auto;
+}
+
+.nav-item-1>*{
+  padding: 36px;
+}
+
+.nav-item-2 > *{
+padding: 36px;
+}
+
+/* Home page */
+
+.home-main{
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.46) 0%, rgba(0, 0, 0, 0.46) 100%), url("https://tinyurl.com/4rhp6kpb"), lightgray 0px -65.191px / 100% 178.109% no-repeat;
+  width: 100%;
+  height: 100dvh;
+}
+
+.home-main-content{
+  display: flex; 
+  justify-content: center; /* Center horizontally */
+  /* align-items: center;  */
+  width: 100%; 
+  height: 100vh;
+}
+
+
+
+
+.home-content-btn{
+background-color: #FF8C38;
+width: 494.333px;
+height: 49.832px;
+margin-left: auto;
+border-radius: 5px;
+}
+
+
+.home-main-h1{
+  /* width: 50%; */
+  padding-top: 10%;
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+}
+
+.home-content-wrapper > *{
+margin-bottom: 55px;
+}
